@@ -1,6 +1,8 @@
 # CS Study Plan
 
-This README takes reference from [John Washam's Coding Interview University](https://github.com/jwasham/coding-interview-university).
+This is a complete guide to become a solid CS engineer.
+
+This README takes reference from [John Washam's Coding Interview University](https://github.com/jwasham/coding-interview-university). It's his work completely and I am just modifying it just for the "personal" touch. Many thanks to John
 
 ## What is it?
 
@@ -433,7 +435,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
+    - [ ] implement:
         - [ ] size() - returns number of data elements in list
         - [ ] empty() - bool returns true if empty
         - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
@@ -680,7 +682,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - Selection sort and insertion sort are both O(n^2) average and worst case
     - For heapsort, see Heap data structure above.
 
-- [ ] Not required, but I recommended them:
+- [ ] Not required, but recommended are:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
         - [ ] [2. Key Indexed Counting](https://www.coursera.org/learn/algorithms-part2/lecture/2pi1Z/key-indexed-counting)
@@ -1148,9 +1150,9 @@ There is a great intro for methodical, communicative problem solving in an inter
 interview books, too, but I found this outstanding:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick. I use a pencil 
+No whiteboard at home? That makes sense. Instead of a whiteboard, pick up a
+large drawing pad from an art store. You can sit on the couch and practice.
+Pen is added in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick. you can use a pencil 
 and eraser.
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
@@ -1344,9 +1346,8 @@ You're never really done.
       that is just an intro. This a guidebook on program design and architecture.
 
 ## Additional Learning
-    
-    I added them to help you become a well-rounded software engineer, and to be aware of certain 
-    technologies and algorithms, so you'll have a bigger toolbox.
+
+Important for becoming a well-rounded software engineer
 
 - ### Compilers
     - [How a Compiler Works in ~1 minute (video)](https://www.youtube.com/watch?v=IhC7sdYe-Jg)
@@ -1514,9 +1515,7 @@ You're never really done.
     - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
         A particularly interesting self-organizing data structure is the splay tree, which uses rotations
         to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
+    - Spaly Tree
         - splay tree: insert, search, delete functions
         If you end up implementing red/black tree try just these:
         - search and insertion functions, skipping delete
@@ -1525,7 +1524,7 @@ You're never really done.
 
     - **AVL trees**
         - In practice:
-            From what I can tell, these aren't used much in practice, but I could see where they would be:
+            These aren't used much in practice, but we could see where they would be:
             The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
             balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
             attractive for data structures that may be built once and loaded without reconstruction, such as language
@@ -1676,9 +1675,7 @@ You're never really done.
 
 ## Additional Detail on Some Subjects
 
-    I added these to reinforce some ideas already presented above, but didn't want to include them
-    above because it's just too much. It's easy to overdo it on a subject.
-    You want to get hired in this century, right?
+Totally optional:
 
 - **SOLID**   
     - [ ] [Bob Martin SOLID Principles of Object Oriented and Agile Design (video)](https://www.youtube.com/watch?v=TMuno5RZNeE)
